@@ -1,13 +1,14 @@
 *{
-    height: fit-content;
-    width: fit-content;}
-
-.xp{ 
-
-    color: blueviolet;}
-
-.sum{
-    color: blue;}
-    
-.skillz{
-    color: greenyellow;}
+    background-color: rgb(206, 206, 168);
+    margin: 0;
+    padding: 0;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat',sans-serif;}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;}
+.xp, .skillz, .sum, .projects, .edu{
+     
+    padding: 1%;}
